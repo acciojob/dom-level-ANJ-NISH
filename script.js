@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let ele=document.getElementById("level");
 
-let level=2;
+let level=1;
 
 while(ele && ele.parentElement.tagName !== HTML)
 	{
