@@ -3,7 +3,7 @@ let ele=document.getElementById("level");
 
 let level=2;
 
-while(ele.parentElement.tagName !== html)
+while(ele && ele.parentElement.tagName !== html)
 	{
 		level++;
 		ele=ele.parentElement;
